@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native/index.js b/node_modules/react-native/index.js
+index 7149c64..3e7fde6 100644
+--- a/node_modules/react-native/index.js
++++ b/node_modules/react-native/index.js
+@@ -94,6 +94,8 @@ import typeof {RootTagContext} from './Libraries/ReactNative/RootTag';
+ 
+ import type {HostComponent as _HostComponentInternal} from './Libraries/Renderer/shims/ReactNativeTypes';
+ 
++import { ViewPropTypes } from "deprecated-react-native-prop-types"
++
+ export type HostComponent<T> = _HostComponentInternal<T>;
+ 
+ const invariant = require('invariant');
