@@ -18,5 +18,6 @@ NPM INSTALL
 
 # Finally
 <Text>Run the app in development mode with Expo Go</Text>
+
 NPM START
 
